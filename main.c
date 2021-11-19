@@ -40,7 +40,7 @@ double seno(int anguloGraus)
 {   
     double valorAbs;
     double anguloRadianos = radianos(anguloGraus);
-    for (int c = 0; NULL; c++) {
+    for (int c = 0;; c++) {
         valorAbs = (exponencial(anguloRadianos, c*2 + 1)/fatorial(c*2 + 1));
         if (c % 2 == 0) {
             anguloRadianos += valorAbs;
